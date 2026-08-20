@@ -1,4 +1,4 @@
-# Misión posible: Operation Vaultbreaker
+# Sustentación
 
 ## Solución del sistema lógico de apertura de la bóveda
 
@@ -150,3 +150,9 @@ Se presenta a continuación la tabla de verdad construida directamente a partir 
 | 15 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | **1** |
 
 La columna de salida de esta tabla reproduce exactamente la columna de salida de la tabla de verdad original presentada en el punto 2, confirmando una vez más la equivalencia entre ambas expresiones. La comparación por parejas de filas consecutivas evidencia también el comportamiento de la variable D: las filas 0 y 1 producen el mismo resultado, al igual que las filas 4 y 5, las filas 6 y 7 y las filas 14 y 15, lo cual verifica que el valor de D no altera en ningún caso el estado de apertura de la bóveda.
+
+
+## Enlaces videos
+
+- Enlace video simulación de Tinkercad
+    https://youtu.be/cACsvG3riek
