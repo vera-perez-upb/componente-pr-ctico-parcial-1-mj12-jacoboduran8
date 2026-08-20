@@ -120,7 +120,7 @@ Para demostrar que la función simplificada es equivalente a la función origina
 | 14 | 1 1 1 0 | 0 | 1 | 1 | 1 | Sí |
 | 15 | 1 1 1 1 | 0 | 1 | 1 | 1 | Sí |
 
-Las dieciséis filas de la comparación coinciden, lo cual constituye una demostración exhaustiva de que ambas funciones son lógicamente equivalentes. Dado que el espacio de entradas de un sistema de cuatro variables contiene exactamente dieciséis combinaciones y todas fueron evaluadas, la verificación es completa y no queda ningún caso sin comprobar.
+Las dieciséis filas de la comparación coinciden, lo cual constituye una demostración exhaustiva de que ambas funciones son lógicamente equivalentes. Dado que el espacio de entradas de un sistema de cuatro variables contiene exactamente dieciséis combinaciones y todas fueron evaluadas.
 
 Esta equivalencia fue además confirmada experimentalmente mediante simulación del circuito, recorriendo las dieciséis combinaciones de los interruptores de entrada y verificando en cada caso el estado del indicador de salida, con resultados coincidentes en la totalidad de las pruebas.
 
