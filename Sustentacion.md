@@ -156,3 +156,6 @@ La columna de salida de esta tabla reproduce exactamente la columna de salida de
 
 - Enlace video simulación de Tinkercad
     https://youtu.be/cACsvG3riek
+
+- Enlace video montaje físico
+    https://youtube.com/shorts/Jc7byJVHym8
