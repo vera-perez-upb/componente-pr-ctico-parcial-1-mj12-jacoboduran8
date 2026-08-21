@@ -10,7 +10,7 @@
 
 ## 1. Extracción de la información secreta de acceso
 
-Para descifrar la combinación se convierte cada número decimal a su representación binaria de cuatro bits, y a partir de ese binario se construye el término producto correspondiente. La regla es directa: cuando una variable vale 1 en el minitérmino aparece sin negar, y cuando vale 0 aparece negada.
+Para descifrar la combinación se convierte cada número decimal a su representación binaria de cuatro bits, y a partir de ese binario se construye el término producto correspondiente. Cuando una variable vale 1 en el minitérmino aparece sin negar, y cuando vale 0 aparece negada.
 
 | Minitérmino | A | B | C | D | Término producto |
 |:---:|:---:|:---:|:---:|:---:|:---|
@@ -89,7 +89,7 @@ Los dos cuartetos identificados cubren en conjunto las ocho casillas con valor 1
 
 El resultado más notable de la simplificación es la desaparición completa de la variable D. Esto ocurre porque los minitérminos especificados vienen siempre en parejas consecutivas, concretamente 0 con 1, 4 con 5, 6 con 7 y 14 con 15, lo cual significa que para cada combinación de A, B y C aparecen tanto el caso D igual a 0 como el caso D igual a 1. En consecuencia, la variable D no aporta información alguna al criterio de apertura de la bóveda y el sistema abre independientemente de su valor.
 
-La reducción lograda es considerable: se pasa de ocho términos con cuatro literales cada uno, es decir treinta y dos literales en total, a solo dos términos de dos literales cada uno, es decir cuatro literales.
+La reducción lograda es considerable, ya que se pasa de ocho términos con cuatro literales cada uno, a solo dos términos de dos literales cada uno, es decir cuatro literales.
 
 ### Verificación algebraica de la simplificación
 
@@ -99,7 +99,7 @@ El mismo resultado puede obtenerse por manipulación algebraica sin recurrir al 
 
 ## 4. Verificación de integridad del sistema
 
-Para demostrar que la función simplificada es equivalente a la función original se realiza una comparación exhaustiva evaluando las dieciséis combinaciones posibles. Se calculan por separado los dos términos de la expresión simplificada y luego su unión mediante OR, para finalmente contrastar el resultado con la salida de la función canónica registrada en el punto 2.
+Para demostrar que la función simplificada es equivalente a la función original se realiza una comparación evaluando las dieciséis combinaciones posibles. Se calculan por separado los dos términos de la expresión simplificada y luego su unión mediante OR, para finalmente contrastar el resultado con la salida de la función canónica registrada en el punto 2.
 
 | Decimal | A B C D | A'C' | BC | y simplificada | y original | Coincide |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -128,7 +128,7 @@ Esta equivalencia fue además confirmada experimentalmente mediante simulación 
 
 ## Tabla de verdad de la función simplificada
 
-Se presenta a continuación la tabla de verdad construida directamente a partir de la expresión simplificada y = A'C' + BC, evaluando el circuito etapa por etapa. Las columnas intermedias corresponden a las señales físicas reales que existen en el montaje, lo cual permite usar esta tabla como referencia de diagnóstico durante las pruebas del circuito.
+Se presenta la tabla de verdad construida directamente a partir de la expresión simplificada y = A'C' + BC, evaluando el circuito etapa por etapa. Las columnas intermedias corresponden a las señales físicas reales que existen en el montaje, lo cual permite usar esta tabla como referencia de diagnóstico durante las pruebas del circuito.
 
 | Decimal | A | B | C | D | A' | C' | A'·C' | B·C | y = A'C' + BC |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
